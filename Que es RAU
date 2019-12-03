@@ -1,0 +1,28 @@
+¿QUE ES EL REGIMEN AGROPECUARIO UNIFICADO (RAU)?
+Análisis del Régimen Agropecuario Unificado (RAU) en el Sistema Tributario Boliviano
+ Es un régimen especial de obligaciones tributarias, por medio del cual se liquidan y pagan en forma anual y simplificada los IMPUESTOS NACIONALES que corresponden al VALOR AGREGADO (IVA), a las TRANSACCIONES (IT), al REGIMEN COMPLEMENTARIO DEL IMPUESTO AL VALOR AGREGADO (RC-IVA) y sobre las UTILIDADES DE LAS EMPRESAS (IUE).
+No me deja formatear micro SD y dice que está protegida contra escritura
+"Necesito ayuda con mi tarjeta SD de 64 GB de SanDisk, que utilizo en mi teléfono Samsung para música y fotos. La tarjeta parece estar corrupta o tal vez infectada con virus o, de alguna manera, cuando la conecté a un equipo, Windows dice que la tarjeta necesita ser formateada. Lo intenté, pero dice "Está protegido contra escritura"
+Los términos llamados, tarjeta SD no formatea, error de formato de tarjeta SD o dejar que Windows no pudo completar el formato de tarjeta SD, se están convirtiendo cada vez más popularmente discutido estos años. Todos estamos buscando una respuesta por una razón por la que tenemos una tarjeta SD que no permite formatear, y una respuesta sobre cómo formatear una tarjeta de memoria que no me deja formatear.
+Causas generales del error ‘no me deja formatear micro sd’
+Básicamente, cuando una tarjeta de memoria tiene problemas y necesita ser formateada para funcionar de nuevo, en gran medida, algo va mal con el sistema de archivos.
+Por ejemplo, sólo se puede utilizar la tarjeta SD FAT32 en algunos dispositivos especificados; el sistema de archivos de la tarjeta SD de repente se vuelve sin procesar y Windows no puede reconocerla; la tarjeta SD no se muestra como un dispositivo de almacenamiento masivo sino como espacio no asignado, etc.
+Sin embargo, dice que formatear la tarjeta SD solucionará problemas como estos, pero ¿por qué finalmente no formateamos la tarjeta SD? Llegamos a algunas conclusiones simples que pueden causar que el problema de la tarjeta SD no se formatee.
+•  La tarjeta SD está protegida contra escritura para que Windows no pueda realizar cambios en ella;
+•  La tarjeta SD está con sectores defectuosos por lo que se corrompe. Windows no puede formatear una tarjeta SD dañada.
+•  El uso de los medios de almacenamiento de tarjetas SD portátiles a través de múltiples ordenadores o lectores de tarjetas puede ser fácilmente infectado con virus, lo que hace que Windows difícilmente sea capaz de formatear la tarjeta para eliminar el virus por completo.
+¿Cómo solucionar 'Tarjeta SD No Formatea'?
+Entonces, ¿cuáles son las soluciones para que la tarjeta SD no formatee el error? ¿Cómo formatear una tarjeta SD que no formatea? En total, introducimos dos soluciones rápidas que se supone resuelven el problema. Cuando se enfrente al caso similar de que una tarjeta de memoria no formatea en un PC con Windows o en un dispositivo de teléfono Android, no dude en solucionar el error mediante los métodos sugeridos.
+Método 1. Ejecutar diskpart para formatear la tarjeta SD que no formatea
+Paso 1. Presiona la tecla Windows y la tecla R al mismo tiempo, escriba cmd en el cuadro Ejecutar, presiona Enter para abrir símbolo de comandos (cmd.exe).
+Paso 2. Escribe diskpart para ejecutar la utilidad de Diskpart.
+Paso 3. Escribe list disk para listar las unidades del equipo.
+Paso 4. Escribe select disk 1 (el número debe ser reemplazado por el número exacto de la unidad de su tarjeta SD).
+Paso 5. Escribe clean para ejecutar la utilidad clean (esto borrará todos los datos de la tarjeta SD para asegurarse de que ha guardado una copia o copia de seguridad de los datos de la tarjeta).
+Paso 6. Escribe create partition primary para crear una nueva partición en la tarjeta SD.
+Paso 7. Escribe select partition 1 (debería ser la partición recién creada en el paso 6).
+Paso 8. Escribe active para activar la partición.
+Paso 9. Escribe format fs=ntfs（o format fs=fat32）para formatear la partición al sistema de archivos deseado.
+Método 2. 3 Pasos a formatear SD que no formatea con EaseUS Partition Master
+Alternativamente, si no te acostumbras las operaciones de símbolo de comandos, la otra opción es utilizar un gestor de particiones gratuito de terceros. EaseUS Partition Master funciona perfectamente en el formateo de una tarjeta de memoria que está dañada, corrupta, inaccesible y que no se formatea en muchas otras plataformas.
+
